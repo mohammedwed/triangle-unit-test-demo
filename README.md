@@ -100,41 +100,6 @@ xdg-open htmlcov/index.html  # Linux
 start htmlcov/index.html  # Windows
 ```
 
-## Expected Output
-
-### Successful Test Run
-```
-test_is_triangle_different_order_invalid_1 ... ok
-test_is_triangle_different_order_invalid_2 ... ok
-test_is_triangle_different_order_valid_1 ... ok
-test_is_triangle_different_order_valid_2 ... ok
-test_is_triangle_edge_case_almost_degenerate ... ok
-test_is_triangle_edge_case_degenerate ... ok
-test_is_triangle_invalid_triangle_1_10_100 ... ok
-test_is_triangle_invalid_triangle_1_2_10 ... ok
-test_is_triangle_invalid_triangle_1_2_3 ... ok
-test_is_triangle_large_sides ... ok
-test_is_triangle_valid_equilateral_triangle ... ok
-test_is_triangle_valid_isosceles_triangle ... ok
-test_is_triangle_valid_triangle_3_4_5 ... ok
-test_is_triangle_valid_triangle_5_12_13 ... ok
-test_is_triangle_with_floats_invalid_triangle ... ok
-test_is_triangle_with_floats_valid_triangle ... ok
-test_main_edge_case_degenerate_triangle ... ok
-test_main_invalid_triangle_1_10_100 ... ok
-test_main_invalid_triangle_1_2_10 ... ok
-test_main_invalid_triangle_1_2_3 ... ok
-test_main_prompts_for_input ... ok
-test_main_valid_equilateral_triangle ... ok
-test_main_valid_triangle_3_4_5 ... ok
-test_main_valid_triangle_5_12_13 ... ok
-
-----------------------------------------------------------------------
-Ran 24 tests in 0.003s
-
-OK
-```
-
 ## Troubleshooting
 
 ### Issue: "No module named 'demo'"
@@ -158,7 +123,6 @@ your-project-folder/
 ├── demo.py              # Main program
 ├── test_demo.py         # Test suite
 ├── README.md            # Full documentation
-├── QUICKSTART.md        # This file
 └── requirements.txt     # Optional dependencies
 ```
 
@@ -201,12 +165,6 @@ pytest test_demo.py --cov=demo
 - **Ran X tests**: Total number of tests executed
 - **OK**: All tests passed!
 
-## Tips for Learning
 
-1. Try breaking the code intentionally to see tests fail
-2. Add your own test cases
-3. Modify the is_triangle function and watch tests fail/pass
-4. Read the test code to understand how mocking works
-5. Experiment with different input values
 
 Happy testing! 🎉
