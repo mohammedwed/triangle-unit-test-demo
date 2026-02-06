@@ -1,0 +1,14 @@
+# Python Triangle Validator - Requirements
+# 
+# Core requirements: None (uses only Python standard library)
+# 
+# Optional requirements for enhanced testing:
+
+# Alternative test runner with better output
+pytest>=7.0.0
+
+# Code coverage reporting
+pytest-cov>=4.0.0
+
+# Test coverage measurement
+coverage>=7.0.0

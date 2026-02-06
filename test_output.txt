@@ -1,0 +1,53 @@
+test_is_triangle_different_order_invalid_1 (test_demo.TestIsTriangle.test_is_triangle_different_order_invalid_1)
+Test that order of sides doesn't matter for invalid triangles. ... ok
+test_is_triangle_different_order_invalid_2 (test_demo.TestIsTriangle.test_is_triangle_different_order_invalid_2)
+Test that order of sides doesn't matter for invalid triangles. ... ok
+test_is_triangle_different_order_valid_1 (test_demo.TestIsTriangle.test_is_triangle_different_order_valid_1)
+Test that order of sides doesn't matter for valid triangles. ... ok
+test_is_triangle_different_order_valid_2 (test_demo.TestIsTriangle.test_is_triangle_different_order_valid_2)
+Test that order of sides doesn't matter for valid triangles. ... ok
+test_is_triangle_edge_case_almost_degenerate (test_demo.TestIsTriangle.test_is_triangle_edge_case_almost_degenerate)
+Test triangle that is barely valid. ... ok
+test_is_triangle_edge_case_degenerate (test_demo.TestIsTriangle.test_is_triangle_edge_case_degenerate)
+Test degenerate triangle where sum equals third side. ... ok
+test_is_triangle_invalid_triangle_1_10_100 (test_demo.TestIsTriangle.test_is_triangle_invalid_triangle_1_10_100)
+Test that 1, 10, 100 does not form a valid triangle. ... ok
+test_is_triangle_invalid_triangle_1_2_10 (test_demo.TestIsTriangle.test_is_triangle_invalid_triangle_1_2_10)
+Test that 1, 2, 10 does not form a valid triangle (one side too long). ... ok
+test_is_triangle_invalid_triangle_1_2_3 (test_demo.TestIsTriangle.test_is_triangle_invalid_triangle_1_2_3)
+Test that 1, 2, 3 does not form a valid triangle (sum equals third side). ... ok
+test_is_triangle_large_sides (test_demo.TestIsTriangle.test_is_triangle_large_sides)
+Test triangle with large side values. ... ok
+test_is_triangle_valid_equilateral_triangle (test_demo.TestIsTriangle.test_is_triangle_valid_equilateral_triangle)
+Test that 5, 5, 5 forms a valid equilateral triangle. ... ok
+test_is_triangle_valid_isosceles_triangle (test_demo.TestIsTriangle.test_is_triangle_valid_isosceles_triangle)
+Test that 5, 5, 8 forms a valid isosceles triangle. ... ok
+test_is_triangle_valid_triangle_3_4_5 (test_demo.TestIsTriangle.test_is_triangle_valid_triangle_3_4_5)
+Test that 3, 4, 5 forms a valid triangle. ... ok
+test_is_triangle_valid_triangle_5_12_13 (test_demo.TestIsTriangle.test_is_triangle_valid_triangle_5_12_13)
+Test that 5, 12, 13 forms a valid triangle. ... ok
+test_is_triangle_with_floats_invalid_triangle (test_demo.TestIsTriangle.test_is_triangle_with_floats_invalid_triangle)
+Test invalid triangle with decimal values. ... ok
+test_is_triangle_with_floats_valid_triangle (test_demo.TestIsTriangle.test_is_triangle_with_floats_valid_triangle)
+Test valid triangle with decimal values. ... ok
+test_main_edge_case_degenerate_triangle (test_demo.TestMain.test_main_edge_case_degenerate_triangle)
+Test main with degenerate triangle case. ... ok
+test_main_invalid_triangle_1_10_100 (test_demo.TestMain.test_main_invalid_triangle_1_10_100)
+Test main with invalid triangle input 1, 10, 100. ... ok
+test_main_invalid_triangle_1_2_10 (test_demo.TestMain.test_main_invalid_triangle_1_2_10)
+Test main with invalid triangle input 1, 2, 10. ... ok
+test_main_invalid_triangle_1_2_3 (test_demo.TestMain.test_main_invalid_triangle_1_2_3)
+Test main with invalid triangle input 1, 2, 3. ... ok
+test_main_prompts_for_input (test_demo.TestMain.test_main_prompts_for_input)
+Test that main prompts for all three sides. ... ok
+test_main_valid_equilateral_triangle (test_demo.TestMain.test_main_valid_equilateral_triangle)
+Test main with valid equilateral triangle input. ... ok
+test_main_valid_triangle_3_4_5 (test_demo.TestMain.test_main_valid_triangle_3_4_5)
+Test main with valid triangle input 3, 4, 5. ... ok
+test_main_valid_triangle_5_12_13 (test_demo.TestMain.test_main_valid_triangle_5_12_13)
+Test main with valid triangle input 5, 12, 13. ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.005s
+
+OK
